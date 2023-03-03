@@ -1,0 +1,511 @@
+body{
+    background-color: black;
+    padding: 5px;
+    height: 150%;
+    
+}
+
+.logo{
+    color: white;
+    font-size: 50px;
+    text-shadow: 6px 0 2px rgb(133, 127, 127);
+    position: fixed;
+    top: 3%;
+    left: 3%;
+}
+.logo:hover {
+    transform: scale(1.2);
+}
+.github ::after{
+    content: "";
+    width: 100%;
+    height: 10px;
+    background-image: linear-gradient(to left,black 60%,
+   
+    rgb(230, 186, 42) 65%,
+    rgb(204, 144, 66) 70%,
+    rgb(179, 111, 56) 77%,
+    rgb(183, 216, 62) 85%,
+    rgb(182, 202, 66) 90%,
+    rgb(170, 29, 107) 93%,
+    rgb(170, 29, 107) 100%
+    
+    );
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    animation: one 3s ease 0.5s 3 normal none;
+}
+
+.gmail ::after{
+    content: "";
+    width: 10px;
+    height: 500px;
+    background-image: linear-gradient(to top,black 30%,
+   
+    rgb(230, 186, 42) 40%,
+    rgb(204, 144, 66) 50%,
+    rgb(179, 111, 56) 60%,
+    rgb(183, 216, 62) 70%,
+    rgb(182, 202, 66) 80%,
+    rgb(170, 29, 107) 90%,
+    rgb(170, 29, 107) 100%
+    
+    );
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    animation: tow 3s ease 0s 3 normal none;
+}
+
+
+.gmail img{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 5%;
+    top: 3%;
+}
+.github img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 10%;
+    top: 1%;
+}
+
+main{
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    text-transform: capitalize;
+}
+
+article .article{
+    color: white;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 70%;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+
+
+}
+
+.article::after{
+    content: "";
+    width: 6px;
+    height: 200px;
+    display: inline-block;
+    background-image: linear-gradient(to top,black 30%,
+   
+    rgb(230, 186, 42) 40%,
+    rgb(204, 144, 66) 50%,
+    rgb(179, 111, 56) 60%,
+    rgb(183, 216, 62) 70%,
+    rgb(182, 202, 66) 80%,
+    rgb(170, 29, 107) 90%,
+    rgb(170, 29, 107) 100%
+    
+    );
+    position: absolute;
+    left: -4%;
+    top: -10%;
+}
+.languages{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 90%;
+    left: 7%;
+}
+.languages::after{
+    content: "";
+    display: inline-block;
+    width: 200px;
+    height: 5px;
+    display: inline-block;
+    background-image: linear-gradient(to left,black 30%,
+   
+    rgb(230, 186, 42) 40%,
+    rgb(204, 144, 66) 50%,
+    rgb(179, 111, 56) 60%,
+    rgb(183, 216, 62) 70%,
+    rgb(182, 202, 66) 80%,
+    rgb(170, 29, 107) 90%,
+    rgb(170, 29, 107) 100%
+    
+    );
+    position: absolute;
+    top: 200%;
+    left: 4%;
+
+}
+
+.languages::before{
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 200px;
+    display: inline-block;
+    background-image: linear-gradient(to top,black 30%,
+   
+    rgb(230, 186, 42) 40%,
+    rgb(204, 144, 66) 50%,
+    rgb(179, 111, 56) 60%,
+    rgb(183, 216, 62) 70%,
+    rgb(182, 202, 66) 80%,
+    rgb(170, 29, 107) 90%,
+    rgb(170, 29, 107) 100%
+    
+    );
+    position: absolute;
+    top: 200%;
+
+}
+.lang{
+    color: white;
+    
+    
+    
+}
+/******html*****/
+.html{
+    position: absolute;
+    top: 107%;
+    left: 13%;
+    animation: three 3s ease 5s 1 normal none;
+}
+
+.html::after{
+content: "";
+    width: 80px;
+    height: 3px;
+    display: inline-block;
+    background-image: linear-gradient(to left,black 30%,
+   
+    rgb(230, 186, 42) 40%,
+    rgb(204, 144, 66) 50%,
+    rgb(179, 111, 56) 60%,
+    rgb(183, 216, 62) 70%,
+    rgb(182, 202, 66) 80%,
+    rgb(170, 29, 107) 90%,
+    rgb(170, 29, 107) 100%
+    
+    );
+    position: absolute;
+    top: 110%;
+    left: 0%;
+}
+
+/*****css*****/
+.css{
+    position: absolute;
+    top: 116%;
+    left: 13%;
+    animation: three 3s ease 9s 1 normal none;
+}
+
+.css::after{
+content: "";
+    width: 50px;
+    height: 3px;
+    display: inline-block;
+    background-image: linear-gradient(to left,black 30%,
+   
+    rgb(230, 186, 42) 40%,
+    rgb(204, 144, 66) 50%,
+    rgb(179, 111, 56) 60%,
+    rgb(183, 216, 62) 70%,
+    rgb(182, 202, 66) 80%,
+    rgb(170, 29, 107) 90%,
+    rgb(170, 29, 107) 100%
+    
+    );
+    position: absolute;
+    top: 120%;
+    left: 0%;
+}
+
+/*****js*****/
+.js{
+    position: absolute;
+    top: 125%;
+    left: 13%;
+    animation: three 3s ease 12s 1 normal none;
+}
+
+.js::after{
+content: "";
+    width: 105px;
+    height: 3px;
+    display: inline-block;
+    background-image: linear-gradient(to left,black 30%,
+   
+    rgb(230, 186, 42) 40%,
+    rgb(204, 144, 66) 50%,
+    rgb(179, 111, 56) 60%,
+    rgb(183, 216, 62) 70%,
+    rgb(182, 202, 66) 80%,
+    rgb(170, 29, 107) 90%,
+    rgb(170, 29, 107) 100%
+    
+    );
+    position: absolute;
+    top: 120%;
+    left: 0%;
+    
+}
+
+/****bootstrap***/
+.bootstrap{
+    position: absolute;
+    top: 134%;
+    left: 13%;
+    animation: three 3s ease 15s 1 normal none;
+}
+
+.bootstrap::after{
+content: "";
+    width: 100px;
+    height: 3px;
+    display: inline-block;
+    background-image: linear-gradient(to left,black 30%,
+   
+    rgb(230, 186, 42) 40%,
+    rgb(204, 144, 66) 50%,
+    rgb(179, 111, 56) 60%,
+    rgb(183, 216, 62) 70%,
+    rgb(182, 202, 66) 80%,
+    rgb(170, 29, 107) 90%,
+    rgb(170, 29, 107) 100%
+    
+    );
+    position: absolute;
+    top: 120%;
+    left: 0%;
+}
+
+/*******jq*********/
+.jq{
+    position: absolute;
+    top: 143%;
+    left: 13%;
+    animation: three 3s ease 18s 1 normal none;
+}
+
+.jq::after{
+content: "";
+    width: 70px;
+    height: 3px;
+    display: inline-block;
+    background-image: linear-gradient(to left,black 30%,
+   
+    rgb(230, 186, 42) 40%,
+    rgb(204, 144, 66) 50%,
+    rgb(179, 111, 56) 60%,
+    rgb(183, 216, 62) 70%,
+    rgb(182, 202, 66) 80%,
+    rgb(170, 29, 107) 90%,
+    rgb(170, 29, 107) 100%
+    
+    );
+    position: absolute;
+    top: 120%;
+    left: 0%;
+}
+
+
+/*****node*****/
+.node{
+    position: absolute;
+    top: 152%;
+    left: 13%;
+    animation: three 3s ease 21s 1 normal none;
+}
+
+.node::after{
+content: "";
+    width: 75px;
+    height: 3px;
+    display: inline-block;
+    background-image: linear-gradient(to left,black 30%,
+   
+    rgb(230, 186, 42) 40%,
+    rgb(204, 144, 66) 50%,
+    rgb(179, 111, 56) 60%,
+    rgb(183, 216, 62) 70%,
+    rgb(182, 202, 66) 80%,
+    rgb(170, 29, 107) 90%,
+    rgb(170, 29, 107) 100%
+    
+    );
+    position: absolute;
+    top: 120%;
+    left: 0%;
+}
+/******footer******/
+.footer{
+    position: absolute;
+    top: 170%;
+    right: 3%;
+    color: white;
+    font-size: 20px;
+}
+
+
+.footer::after{
+    content: "";
+    width: 300%;
+    height: 10px;
+    background-image: linear-gradient(to right,black 60%,
+   
+    rgb(230, 186, 42) 65%,
+    rgb(204, 144, 66) 70%,
+    rgb(179, 111, 56) 77%,
+    rgb(183, 216, 62) 85%,
+    rgb(182, 202, 66) 90%,
+    rgb(170, 29, 107) 93%,
+    rgb(170, 29, 107) 100%
+    
+    );
+    position: absolute;
+    top: 175%;
+    right: -10%;
+
+}
+
+.footer::before{
+    content: "";
+    width: 10px;
+    height: 350px;
+    background-image: linear-gradient(to bottom,
+   
+    rgb(230, 186, 42) 0%,
+    rgb(204, 144, 66) 20%,
+    rgb(179, 111, 56) 35%,
+    rgb(183, 216, 62) 55%,
+    rgb(182, 202, 66) 70%,
+    rgb(170, 29, 107) 90%,
+    rgb(170, 29, 107) 100%
+    
+    );
+    position: absolute;
+    bottom: -100%;
+    right: -10%;
+}
+
+/*****responsive design****/
+@media (min-width: 400px) and (max-width: 770px){
+
+    .github img{
+        right: 25%;
+        top: 2%;
+    }
+    main{
+        top: 20%;
+        font-size: 50px;
+    }
+    article .article{
+        top: 35%;
+        font-size: 15px;
+    }
+    .languages{
+        top: 55%;
+    }
+    .html {
+        top: 70%;
+
+    }
+    .css{
+        top: 75%;
+    }
+    .js{
+        top: 80%;
+    }
+    .bootstrap{
+        top: 85%;
+    }
+    .jq{
+        top: 90%;
+    }
+    .node{
+        top: 95%;
+    }
+    .footer{
+        top: 100%;
+        font-size: 15px;
+    }
+    .article::after{
+        width: 2px;
+    }
+    .languages::after{
+        left: 0%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 400px) {
+    .github img{
+        top: 4%;
+    }
+    .gmail img{
+        top: 6%;
+    }
+    
+    .gmail ::after{
+        visibility: hidden;
+    }
+    .languages::after{
+     
+        top: 190%;
+        left: 0%;
+    
+    }
+    .github img{
+        right: 30%;
+    }
+    main{
+        font: 40px;
+    }
+    article .article{
+        font-size: 15px;
+    }
+
+}
+/*******animation*/
+@keyframes one{
+    from{
+        width: 0;
+        height: 10;
+    }
+    to{
+        width: 100%;
+        height: 10px;
+    }
+}
+
+@keyframes tow{
+    from{
+        width: 10;
+        height: 0;
+    }
+    to{
+        width: 10px;
+        height: 100%;
+    }
+}
+
+@keyframes three{
+    0%{}  
+    50%{
+        font-size: larger;
+    }
+    100%{
+        font-size: smaller;
+    }
+}
+
